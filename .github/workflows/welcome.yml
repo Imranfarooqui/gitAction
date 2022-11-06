@@ -1,3 +1,4 @@
+name: Welcome Message
 on: [push]
 jobs:
   job-message-actions:
@@ -5,4 +6,3 @@ jobs:
     steps:
       - run: echo "Welcome to Git Actions"
       - run: echo "Current os is ${{runner.os}}"
-      
